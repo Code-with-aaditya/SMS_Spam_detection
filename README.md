@@ -25,6 +25,10 @@ The SMS Spam Detection Model leverages machine learning and Natural Language Pro
 
 ### 3. Model Selection and Training
 - Tested multiple machine learning algorithms such as Naive Bayes, Support Vector Machines, and ensemble methods.
+- Trained and evaluated models including GaussianNB, BernoulliNB, and MultinomialNB for optimal performance.
+  - **GaussianNB**: Achieved an accuracy of 86%.
+  - **BernoulliNB**: Achieved an accuracy of 97%.
+  - **MultinomialNB**: Achieved an accuracy of 96%.
 - Selected the best-performing model based on evaluation metrics.
 
 ### 4. Deployment
@@ -59,17 +63,17 @@ The SMS Spam Detection Model leverages machine learning and Natural Language Pro
 ## Results
 - The best-performing model achieved high precision and recall, ensuring effective spam detection with minimal false positives.
 
+## Accuracy
+- The model achieved an overall accuracy of **95%**, demonstrating its effectiveness in distinguishing spam messages from legitimate ones.
+
 ## Future Work
 - Integrate deep learning models for more nuanced classification.
 - Expand the dataset to improve the model's generalizability.
 - Add multilingual support for SMS classification.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ## Contributors
 - **Aditya Kumar** (Project Lead)
-- **Jay Rathord** (Trainer)
+- **Jay Rathord** (Master Trainer)
 - AICTE, Microsoft, SAP, and EduEnt Foundation (Project Providers)
 
 ## Acknowledgments
