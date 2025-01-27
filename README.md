@@ -25,10 +25,14 @@ The SMS Spam Detection Model leverages machine learning and Natural Language Pro
 
 ### 3. Model Selection and Training
 - Tested multiple machine learning algorithms such as Naive Bayes, Support Vector Machines, and ensemble methods.
-- Trained and evaluated models including GaussianNB, BernoulliNB, and MultinomialNB for optimal performance.
-  - **GaussianNB**: Achieved an accuracy of 86%.
-  - **BernoulliNB**: Achieved an accuracy of 97%.
-  - **MultinomialNB**: Achieved an accuracy of 96%.
+- Trained and evaluated models for optimal performance:
+
+| Model          | Accuracy |
+|----------------|----------|
+| GaussianNB     | 86%      |
+| BernoulliNB    | 97%      |
+| MultinomialNB  | 96%      |
+
 - Selected the best-performing model based on evaluation metrics.
 
 ### 4. Deployment
